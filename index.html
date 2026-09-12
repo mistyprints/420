@@ -199,7 +199,7 @@
     const overallEl = document.getElementById('place-overall');
     if (place.rating) {
       overallEl.innerHTML =
-        `<span class="score">${place.rating.toFixed(1)}</span> · ${place.userRatingCount || 0} recensioni totali`;
+        `<span class="score">${place.rating.toFixed(1)}</span> · ${place.userRatingCount || 0} reviews`;
     } else {
       overallEl.textContent = "Valutazione non disponibile";
     }
